@@ -68,8 +68,8 @@ class HTTP {
     			curl_global_cleanup();
 				return CURLE_FAILED_INIT;
 			}
-	
-    		curl_global_cleanup();
+			
+			curl_global_cleanup();
 			return myResult;	
 		};
 
