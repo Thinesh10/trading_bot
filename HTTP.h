@@ -30,8 +30,7 @@ class HTTP {
 		}
 				
 		static size_t response_callback(void* , size_t, size_t, void*);
-		CURLcode perform_request (const std::string&, const std::string&, const std::string&,
-			std::string *, const std::vector<std::string>& = std::vector<std::string>()
+		CURLcode perform_request (const std::string&, const std::string&, const std::string&, std::string *, const std::vector<std::string>& = std::vector<std::string>()
 		); 
 		
 		~HTTP() = default;	
